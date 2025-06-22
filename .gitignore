@@ -1,0 +1,55 @@
+# === Build Outputs ===
+target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# === Maven ===
+!.mvn/wrapper/maven-wrapper.jar
+
+# === IDEs ===
+
+## IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+## Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+## NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+## VS Code
+.vscode/
+
+# === System / OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Configuration Secrets ===
+src/main/resources/application.properties
+src/main/resources/application.yml
+src/main/resources/*.key
+src/main/resources/*.crt
+src/main/resources/*.pem
+
+# === Logs ===
+*.log
+logs/
+
+# === Misc ===
+HELP.md
